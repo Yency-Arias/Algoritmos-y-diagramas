@@ -1,0 +1,111 @@
+#             ---TAREA | ALGORITMOS Y DIAGRAMAS---
+#              ---YENCY ELADIO ARIAS MARCELINO---
+
+
+#                ---Ejercicio 1: Par o impar---
+
+numero = int(input('\nIngresa un numero entero: '))
+
+if numero %2 == 0:
+    print(f'\nEl numero {numero} es par.')
+
+else:
+    print(f'\nEl numero {numero} es impar.')
+    
+
+
+#               ---Ejercicio 2: Mayor de edad---
+
+#edad = int(input('\nIngrese su edad: '))
+
+#if edad < 1:
+#    print('\nNo relaje profe...')
+
+#elif edad >= 18:
+#    print(f'\nTienes {edad}, eres mayor de edad, puedes pasar.')
+    
+#else:
+#    print(f'Tienes {edad}, eres menor de edad, no puedes pasar.')
+    
+
+
+#              ---Ejercicio 3: Multiplo de 5---
+
+#valor = int(input('\nIngresa un numero: '))
+
+#if valor %5 == 0:
+#    print(f'\nEl numero {valor} es multiplo de 5.')
+
+#else:
+#    print(f'\n El numero {valor} no es multiplo de 5.')
+
+
+
+#             ---Ejercicio 4: Descuento por edad---
+
+#edad2 = int(input('\nBienvenido/a al cine, digame su edad: '))
+
+#if edad2 <1:
+#    print('\nDeja el relajo...')
+
+#elif edad2 >= 60:
+#    print('\nUsted aplica para el descuento del 50%!')
+    
+#else:
+#    print('\nUsted no aplica para el descuento.')
+    
+
+
+#           ---Ejercicio 5: Calificacion aprobatoria---
+
+#nota = int(input('\nDigame su calificacion: '))
+
+#if nota <0:
+#    print('\nNota invalida.')
+
+#elif nota <60:
+#    print('\nUsted ha reprobado.')
+
+#elif nota <80:
+#    print('\nHas aprobado de a chepa.')
+    
+#elif nota <=100:
+#    print('\nExcelente, has aprobado!')
+    
+#else:
+#    print('\nNota invalida.')
+
+
+
+#               ---Ejercicio 6: Dias de la semana---
+
+#dia = int(input('\nDime un numero del 1 al 7: '))
+
+#if dia < 1:
+#    print('\nTe dije del 1 al 7...')
+    
+#elif dia == 1:
+#    print(f'\n{dia} es lunes.')
+
+#elif dia == 2:
+#    print(f'\n{dia} es martes.')
+
+#elif dia == 3:
+#    print(f'\n{dia} es miercoles.')
+
+#elif dia == 4:
+#    print(f'\n{dia} es jueves.')
+
+#elif dia == 5:
+#    print(f'\n{dia} es viernes.')
+
+#elif dia == 6:
+#    print(f'\n{dia} es sabado.')
+
+#elif dia == 7:
+#    print(f'\n{dia} es domingo.')
+
+#else:
+#    print('\nTe acabo de decir del 1 al 7...')
+    
+#Profe, ¿Por que no puso que el dia 1 fuera domingo y el 7 fuera sabado?
